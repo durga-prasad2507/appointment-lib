@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist-bundle'),
     filename: 'appointment-lib.bundle.js',
-    library: 'MyLib', // This defines the global object
+    library: 'AppointmentLib', // This defines the global object
     libraryTarget: 'umd', // UMD to support various module systems and global scope
     umdNamedDefine: true, // Name the AMD module, helpful in global contexts
   },
